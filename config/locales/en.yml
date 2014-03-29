@@ -20,4 +20,28 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  header:
+    about_us: "About us"
+    imprint: "Imprint"
+    contact: "Contact"
+    contact_us: "Contact us"
+  featured:
+    headline: "CUSTOMIZED IMPLANTS - SHAPED ON SITE"
+    teaser: "PIONIRA provides a srvice that allows you to shape custom made cranial implants on site."
+    sub_headline: "Our Service"
+    list_item_1: "creation of a 3d model for approval of the design implant"
+    list_item_2: "production of a high precision mould"
+    list_item_3: "short delivery times"
+    list_item_4: "Workshops on site"
+    list_item_5: "personal support by our staff"
+  content:
+    diy_teaser: "By using our service, you get the opportunity to produce a high quality implant yourself, leading to a significant cost reduction. This is possible due to the CAD/CAM technology, which guarantees excellent cosmetic results and ensures a high level of patient satisfaction"
+    benefits: "Your benefits"
+    benefits_item_1: "Excellent cost-benefit ratio"
+    benefits_item_2: "Reproducible solutions without additional cost in revision cases"
+    benefits_item_3: "Modifications easily possible"
+    benefits_item_4: "Free choice of implant materia"
+    tasks: "Your tasks"
+    tasks_item_1: "transmission of your patient-specific ct data"
+    tasks_item_2: "Your professional participation in designing the implant"
+    tasks_item_3: "production of the cranial implant"

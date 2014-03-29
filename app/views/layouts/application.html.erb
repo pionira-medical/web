@@ -20,13 +20,14 @@
 				<h1><a href="./" accesskey="h"><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""></a></h1>
 				<nav id="nav">
 					<ul class="secondary">
-						<li><a href="./">Imprint</a></li>
-						<li><a href="./">Contact</a></li>
+						<li><a href="./"><%= t('header.about_us') %></a></li>
+            <li><a href="./"><%= t('header.contact') %></a></li>
+            <li><a href="./"><%= t('header.imprint') %></a></li>
 					</ul>
 				</nav>
 				<form action="./" method="post" id="search">
 					<fieldset>
-						<p>Call us <span class="tel">+49 (0)6201 8462592</span></p>
+						<p><%= t('header.contact_us') %> <span class="tel">+49 (0)6201 8462592</span></p>
 					</fieldset>
 				</form>
 			</header>
@@ -54,7 +55,7 @@
 						</ul>
 					</div>
 				</nav>
-				<p>Copyright <span class="date">2013</span> &copy; <a href="./">Medical Centre, Inc.</a> All Rights Reserved.</p>
+				<p>Copyright <span class="date">2014</span> &copy; <a href="./">PIONIRA-Medical GmbH</a> All Rights Reserved.</p>
 			</footer>
 		</div>
 	</body>
