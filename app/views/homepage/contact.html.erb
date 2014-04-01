@@ -1,8 +1,8 @@
 <article id="content" class="cols-b">
 <nav id="breadcrumbs">
   <ol>
-    <li><a href="./">Home</a></li>
-    <li>Contact us</li>
+    <li><%= link_to t('header.start'), root_url %></li>
+    <li><%= t('header.contact') %></li>
   </ol>
 </nav>
 <div class="map-a">
@@ -20,11 +20,11 @@
     <input type="hidden"  name="event" value="start" />
     <fieldset>
       <p>
-        <label for="ca">Your name</label>
+        <label for="ca">Name</label>
         <input type="text" id="ca" name="name" required>
       </p>
       <p>
-        <label for="cb">Email address</label>
+        <label for="cb">E-Mail</label>
         <input type="email" id="cb" name="email" required>
       </p>
       <p class="select-b">
@@ -32,7 +32,7 @@
         <input name="subject" type="text" id="cd" required>
       </p>
       <p class="select-b">
-        <label for="cc">Daytime phone</label>
+        <label for="cc">Phone</label>
         <input name="dayphone" type="text" id="cf" required>
       </p>
       <p>

@@ -20,8 +20,8 @@
 				<h1><%= link_to root_url do %><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""><% end %></h1>
 				<nav id="nav">
 					<ul class="secondary">
-						<li><a href="./"><%= link_to t('header.about_us'), about_url %></a></li>
-            <li><a href="./"><%= link_to t('header.contact'), contact_url %></a></li>
+						<li><%= link_to t('header.about_us'), about_url %></li>
+            <li><%= link_to t('header.contact'), contact_url %></li>
             <li><%= switch_locale %></li>
 					</ul>
 				</nav>

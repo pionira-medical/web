@@ -21,6 +21,7 @@
 
 de:
   header:
+    start: "Start"
     about_us: "Über uns"
     contact: "Kontakt"
     german: "Deutsch"
@@ -56,3 +57,8 @@ de:
     item_3: "SIE überprüfen das 3-dimensionale Modell und geben es freu"
     item_4: "WIR erstellen eine Gussform die es Ihnen ermöglicht eine passgenaues Implantat vor Ort zu formen"
     item_5: "SIE modellieren ein patienten-individuelles Implantat unter sterilen Bedingungen"
+  about:
+    teaser_1: 'Our Vision is to generate "improved solutions" by supplying revolutioninary medical services yet unknown in North America'
+    teaser_2: "Founded in Germany by a team of medical device experts, Pionira has reached into and discovered advanced services and technologies in both Eastern and Western Europe. These services, unavailable in North America, have been used successfully in hundreds of applications in Europe."
+    text_1: "Als zukunftsorientiertes Unternehmen investiert die PIONIRA Medical North America LLC in die Forschung und Entwicklung neuer Services und Produkte und setzt dabei auf innovative und intelligente Lösungen, welche die Versorgung und Lebensqualität der Patienten nachhaltig verbessern und die Abläufe im Klinikalltag optimieren."
+    text_2: "Das Management -Team der PIONIRA Medical North America LLC bringt mit Rick Williamsson (CEO), Inès Wanderer (CCO) und Ulrich Borchert (CMO) das Know-How von mehr als 15 Jahren Erfahrung ein, die in langjährigen Management-Positionen führender Unternehmen in der Medizintechnik und anderer erfolgreicher Unternehmen erworben wurden."

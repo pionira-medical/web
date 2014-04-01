@@ -21,6 +21,7 @@
 
 en:
   header:
+    start: "Home"
     about_us: "About us"
     contact: "Contact"
     german: "German"
@@ -56,3 +57,8 @@ en:
     item_3: "YOU review and approve the 3D model"
     item_4: "WE create a mold for you that helps you to produce a precisely fitting implant on site"
     item_5: "YOU manufacture a patient individual cranial implant under sterile conditions"
+  about:
+    teaser_1: 'Our Vision is to generate "improved solutions" by supplying revolutioninary medical services yet unknown in North America'
+    teaser_2: "Founded in Germany by a team of medical device experts, Pionira has reached into and discovered advanced services and technologies in both Eastern and Western Europe. These services, unavailable in North America, have been used successfully in hundreds of applications in Europe."
+    text_1: ""
+    text_2: ""

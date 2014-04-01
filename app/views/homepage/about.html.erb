@@ -1,14 +1,15 @@
 <section id="content" class="cols-a">
 <nav id="breadcrumbs">
 	<ol>
-		<li><a href="./">Home</a></li>
-		<li><a href="./">About us</a></li>
+		<li><%= link_to t('header.start'), root_url %></li>
+		<li><%= t('header.about_us') %></li>
 	</ol>
 </nav>
 <article>
-	<p class="em">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue sapien, pretium ut tempor ut, bibendum vitae nibh. Nulla mattis dolor at felis congue bibendum. Sed consequat tellus et mauris sollicitudin a hendrerit arcu dignissim. </p>
-	<p class="strong">In dapibus lorem enim, vitae tristique nisl</p>
-	<p>Donec ullamcorper bibendum sem, eu dictum justo auctor sit amet. </p>
+	<p class="em"><%= t('about.teaser_1') %></p>
+	<p class="em"><%= t('about.teaser_2') %></p>
+	<p><%= t('about.text_1') %></p>
+	<p><%= t('about.text_2') %></p>
 </article>
 </section>
 <script type="text/javascript">
