@@ -17,12 +17,12 @@
 	<body>
 		<div id="root">
 			<header id="top">
-				<h1><%= link_to root_path do %><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""><% end %></h1>
+				<h1><%= link_to root_url do %><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""><% end %></h1>
 				<nav id="nav">
 					<ul class="secondary">
-						<li><a href="./"><%= t('header.about_us') %></a></li>
-            <li><a href="./"><%= t('header.contact') %></a></li>
-            <li><%= link_to_switch_locale %></li>
+						<li><a href="./"><%= link_to t('header.about_us'), about_url %></a></li>
+            <li><a href="./"><%= link_to t('header.contact'), contact_url %></a></li>
+            <li><%= switch_locale %></li>
 					</ul>
 				</nav>
 				<form action="./" method="post" id="search">

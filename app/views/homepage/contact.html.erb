@@ -1,0 +1,83 @@
+<article id="content" class="cols-b">
+<nav id="breadcrumbs">
+  <ol>
+    <li><a href="./">Home</a></li>
+    <li>Contact us</li>
+  </ol>
+</nav>
+<div class="map-a">
+  <header class="vcard">
+    <p class="adr"><span class="street-address">PIONIRA-Medical GmbH</span>,<br /><span class="street-address">Breitgasse 5a</span>,<br /><span class="locality">69493 Hirschberg</span>, <span class="country-name">Germany</span></p>
+    <ul>
+      <li class="tel">+49 6201 8462592</li>
+      <li><a class="email">info//pionira-medical/com</a></li>
+    </ul>
+  </header>
+  <div class="map-g"><figure><img src="images/map-a.png" alt="Placeholder" width="660" height="469"></figure></div>
+</div>
+<aside>
+  <form onSubmit="return submitForm();" action="" method="post" class="contactform" name="homefrm1" id="contact">
+    <input type="hidden"  name="event" value="start" />
+    <fieldset>
+      <p>
+        <label for="ca">Your name</label>
+        <input type="text" id="ca" name="name" required>
+      </p>
+      <p>
+        <label for="cb">Email address</label>
+        <input type="email" id="cb" name="email" required>
+      </p>
+      <p class="select-b">
+        <label for="cc">Subject</label>
+        <input name="subject" type="text" id="cd" required>
+      </p>
+      <p class="select-b">
+        <label for="cc">Daytime phone</label>
+        <input name="dayphone" type="text" id="cf" required>
+      </p>
+      <p>
+        <label for="cd">Message</label>
+        <textarea id="cc" name="msg" required></textarea>
+      </p>
+      <p><button type="submit">Submit</button></p>
+    </fieldset>
+  </form>
+  <div id="alert">
+      <div class="message"></div>
+  </div>
+</aside>
+</article>
+<script type="text/javascript">
+	head.js('http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js','javascript/scripts.js','javascript/mobile.js')
+</script>
+<script type="text/javascript">
+		head.ready(function() {
+			(function($){$.fn.extend({
+				gmapembedd: function(str){
+					return this.each( function(){
+						var map_id = $(this).attr('id');
+						var map,map_options,marker,marker_options;
+						var gc = new google.maps.Geocoder();
+						gc.geocode({'address':str},function(res1,status){
+							if(status === google.maps.GeocoderStatus.OK){
+								map_options = {
+									zoom: 16,
+									center: res1[0].geometry.location,
+									mapTypeId: google.maps.MapTypeId.ROADMAP,
+									disableDefaultUI: false,
+									draggable: false,
+									zoomControl: false,
+									scrollwheel: true,
+									disableDoubleClickZoom: true
+								};
+								map = new google.maps.Map(document.getElementById(map_id),map_options);
+								marker_options = { position: res1[0].geometry.location, map: map }
+								marker = new google.maps.Marker(marker_options);
+							}
+						});
+					});
+				}
+			});
+			})(jQuery);
+		});
+	  </script>

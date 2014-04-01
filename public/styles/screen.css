@@ -81,7 +81,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	#content { position: relative; z-index: 1; width: 861px; margin: -2px auto 0; padding: 21px 72px 45px 27px; background: #fff; }
 	#content, #featured { box-shadow: 0 0 2px #c4c4c4; -moz-box-shadow: 0 0 2px #c4c4c4; -webkit-box-shadow: 0 0 2px #c4c4c4; }
 	#content:after { content: ""; display: block; overflow: hidden; clear: both; height: 0; }
-		#breadcrumbs { overflow: hidden; clear: both; width: 960px; margin: 0 0 38px -27px; padding: 0 0 12px; background: url(/images/borders/a.png) center 100% no-repeat; color: #b6b6b6; }
+		#breadcrumbs { overflow: hidden; clear: both; width: 960px; margin: 0 0 15px -27px; padding: 0 0 12px; background: url(/images/borders/a.png) center 100% no-repeat; color: #b6b6b6; }
 		#breadcrumbs * { list-style: none; margin: 0; padding: 0; }
 			#breadcrumbs li { display: block; float: left; padding: 0 6px 0 11px; background: url(/images/sprite-a.png) 0 -402px no-repeat; font-size: 1.3em; }
 			#breadcrumbs li:first-child { padding-left: 23px; background: none; }
@@ -95,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 			#newsletter input { display: block; position: relative; left: 9px; width: 122px; height: 25px; padding: 0 5px 0 36px; border: 1px solid #dfdfdf; line-height: 25px; }
 			#newsletter input { border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; }
 			#newsletter button { display: block; overflow: hidden; position: absolute; left: 12px; bottom: 4px; width: 43px; height: 47px; padding: 0; border: 0; background: url(/images/sprite-a.png) -157px -227px no-repeat; text-indent: -3000em; }
-		#contact { position: relative; padding: 64px 0 0; }
+		#contact { position: relative; }
 			#contact legend { display: block; position: absolute; left: 0; top: 12px; color: #00abd2; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.7em; text-align: left; text-transform: uppercase; }
 			#contact p { position: relative; margin: 0 0 11px; color: #787878; }
 			#contact label { display: block; position: relative; left: 0; top: 0; padding: 0 0 2px; }
@@ -138,7 +138,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*! Columns --------- */
 .cols-a { width: 100%; }
 .cols-a:after { content: ""; display: block; overflow: hidden; clear: both; height: 0; }
-	.cols-a > div, .cols-a > section, .cols-a > article { float: right; width: 609px; padding: 16px 0 0; }
+	.cols-a > div, .cols-a > section, .cols-a > article { padding: 16px 0 0; }
 	.cols-a > aside { float: left; width: 205px; min-height: 692px; margin: 0 0 0 -4px; padding: 16px 23px 0 0; background: url(/images/borders/c.png) 100% 0 no-repeat; }
 	.cols-a.a > div, .cols-a.a > section, .cols-a.a > article { padding-top: 11px; }
 	.cols-a.a > aside { padding-top: 11px; background: none; }
@@ -190,7 +190,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .map-a { display: block; position: relative; width: 664px; height: 473px; border: 1px solid #eaeaea; }
 	.map-a header { overflow: hidden; position: absolute; left: 2px; bottom: 2px; z-index: 2; width: 660px; padding: 15px 0; background: url(/images/shade-a.png); color: #fff; }
 		.map-a header h2 { float: left; width: 133px; margin: 0; padding: 4px 40px 0 24px; color: #fff; font-size: 1.5em; line-height: 1.45; }
-		.map-a header p { display: block; float: left; width: 175px; margin: 0; padding: 8px 30px 3px 24px; background: url(/images/shade-b.png) repeat-y; font-weight: 700; line-height: 1.4; }
+		.map-a header p { display: block; float: left; width: 260px; margin: 0; padding: 8px 30px 3px 24px; background: url(/images/shade-b.png) repeat-y; font-weight: 700; line-height: 1.4; }
 		.map-a header ul { float: left; margin: 0; padding: 8px 0 0 45px; background: url(/images/shade-b.png) repeat-y; }
 			.map-a header ul li { padding: 0 0 0 28px; background: url(/images/sprite-a.png) 0 -590px no-repeat; line-height: 1.4; }
 			.map-a header ul li.tel { background-position: 0 -558px; }
