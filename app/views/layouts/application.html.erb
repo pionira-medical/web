@@ -22,8 +22,7 @@
 					<ul class="secondary">
 						<li><a href="./"><%= t('header.about_us') %></a></li>
             <li><a href="./"><%= t('header.contact') %></a></li>
-            <li><a href="./"><%= t('header.english') %></a></li>
-						<li><a href="./"><%= t('header.german') %></a></li>
+            <li><%= link_to_switch_locale %></li>
 					</ul>
 				</nav>
 				<form action="./" method="post" id="search">
