@@ -62,3 +62,6 @@ en:
     teaser_2: "Founded in Germany by a team of medical device experts, Pionira has reached into and discovered advanced services and technologies in both Eastern and Western Europe. These services, unavailable in North America, have been used successfully in hundreds of applications in Europe."
     text_1: ""
     text_2: ""
+  contact_sent:
+    title: "Thank You."
+    text: "Lorem ipsum dolor sit amet."
