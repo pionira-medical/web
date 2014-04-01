@@ -40,12 +40,17 @@ en:
     benefits_item_1: "Excellent cost-benefit ratio"
     benefits_item_2: "Reproducible solutions without additional cost in revision cases"
     benefits_item_3: "Modifications easily possible"
-    benefits_item_4: "Free choice of implant materia"
+    benefits_item_4: "Free choice of implant material"
     tasks: "Your tasks"
     tasks_item_1: "transmission of your patient-specific ct data"
     tasks_item_2: "Your professional participation in designing the implant"
     tasks_item_3: "production of the cranial implant"
   workflow:
+    step_1: 1st Step
+    step_2: 2nd Step
+    step_3: 3rd Step
+    step_4: 4th Step
+    step_5: 5th Step
     item_1: "YOU send us the patient individual CT data"
     item_2: "WE create a 3D model of the cranial defect, based on your data"
     item_3: "YOU review and approve the 3D model"
