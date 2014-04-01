@@ -22,9 +22,9 @@
 en:
   header:
     about_us: "About us"
-    imprint: "Imprint"
     contact: "Contact"
-    contact_us: "Contact us"
+    german: "German"
+    english: "English"
   featured:
     headline: "CUSTOMIZED IMPLANTS - SHAPED ON SITE"
     teaser: "PIONIRA provides a srvice that allows you to shape custom made cranial implants on site."
@@ -45,3 +45,9 @@ en:
     tasks_item_1: "transmission of your patient-specific ct data"
     tasks_item_2: "Your professional participation in designing the implant"
     tasks_item_3: "production of the cranial implant"
+  workflow:
+    item_1: "YOU send us the patient individual CT data"
+    item_2: "WE create a 3D model of the cranial defect, based on your data"
+    item_3: "YOU review and approve the 3D model"
+    item_4: "WE create a mold for you that helps you to produce a precisely fitting implant on site"
+    item_5: "YOU manufacture a patient individual cranial implant under sterile conditions"
