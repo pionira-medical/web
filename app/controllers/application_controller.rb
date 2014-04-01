@@ -12,4 +12,8 @@ class ApplicationController < ActionController::Base
       I18n.locale = ['de', 'en'].include?(client_locale) ? client_locale : I18n.default_locale
     end
   end
+
+  def default_url_options(options={})
+    { locale: params[:locale] }
+  end
 end

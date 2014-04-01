@@ -17,7 +17,7 @@
 	<body>
 		<div id="root">
 			<header id="top">
-				<h1><a href="./" accesskey="h"><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""></a></h1>
+				<h1><%= link_to root_path do %><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""><% end %></h1>
 				<nav id="nav">
 					<ul class="secondary">
 						<li><a href="./"><%= t('header.about_us') %></a></li>
