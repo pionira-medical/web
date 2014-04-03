@@ -21,47 +21,41 @@
 
 de:
   header:
-    start: "Start"
+    start: "Startseite"
     about_us: "Über uns"
     contact: "Kontakt"
     german: "Deutsch"
     english: "Englisch"
   featured:
-    headline: "Patienten-Individuelle Implantate - vor Ort geformt"
-    teaser: "PIONIRA provides a srvice that allows you to shape custom made cranial implants on site."
-    sub_headline: "Our Service"
-    list_item_1: "creation of a 3d model for approval of the design implant"
-    list_item_2: "production of a high precision mould"
-    list_item_3: "short delivery times"
-    list_item_4: "Workshops on site"
-    list_item_5: "personal support by our staff"
+    headline: "Patienten-individuelle Implantate – vor Ort geformt"
+    teaser: "Der Service der Pionira Medical GmbH ermöglicht es Ihnen erstmals Patienten-individuelle Kranioplastie-Implantate selber unter sterilen Bedingungen im OP zu formen."
+    sub_headline: "Unser Service"
+    list_item_1: "Erstellung eines interaktiven 3-D Modells zur Überprüfung ihres Implantat Designs"
+    list_item_2: "Anfertigung einer passgenaue Form zur Herstellung ihres Implantats"
+    list_item_3: "Kurze Lieferzeiten"
+    list_item_4: "Workshops vor Ort"
+    list_item_5: "Persönliche Unterstützung durch unsere geschulten Mitarbeiter"
   content:
-    diy_teaser: "Die Services der Pionira Medical GmbH ermöglichen es dem klinischen Anwender jetzt erstmals patienten-individuelle maßangefertigte Kranioplastie-Implantate auf Basis der bekannten und bewährten CAD Technologie selber im OP herzustellen."
+    diy_teaser: "Der Service der PIONIRA MEDICAL GmbH ermöglicht es dem klinischen Anwender jetzt erstmals patienten-individuelle maßangefertigte Kranioplastie-Implantate auf Basis der bekannten und bewährten CAD Technologie selber unter sterilen Bedingungen im OP herzustellen."
     benefits: "Ihre Vorteile"
     benefits_item_1: "Hervorragendes Preis-Leistungsverhältnis"
-    benefits_item_2: "Sehr gute kosmetische Ergebnisse"
+    benefits_item_2: "Ermöglicht hohe Passgenauigkeit"
     benefits_item_3: "Reproduzierbarkeit bei Revisionen ohne weitere Kosten"
-    benefits_item_4: "Freie Wahl des Implantatmaterials"
-    tasks: "Your tasks"
-    tasks_item_1: "transmission of your patient-specific ct data"
-    tasks_item_2: "Your professional participation in designing the implant"
-    tasks_item_3: "production of the cranial implant"
+    benefits_item_4: "Wahl des Implantat Materials nach Wunsch des klinischen Anwenders"
+    tasks: "Ihre Mitwirkung"
+    tasks_item_1: "Übermittlung ihrer patienten-spezifischen CT Daten"
+    tasks_item_2: "Sie entscheiden über das Design des Implantats"
+    tasks_item_3: "Sie formen das Implantat selber vor Ort unter sterilen Bedingungen im OP"
   workflow:
-    step_1: 1. Schritt
-    step_2: 2. Schritt
-    step_3: 3. Schritt
-    step_4: 4. Schritt
-    step_5: 5. Schritt
-    item_1: "SIE senden uns die individuellen CT Daten des betroffenen Patienten"
-    item_2: "WIR erstellen ein 3-dimensionales Modell des Schädeldefekts basierend auf ihren Daten und schicken es Ihnen als interaktives PDF zur Freigabe"
-    item_3: "SIE überprüfen das 3-dimensionale Modell und geben es freu"
-    item_4: "WIR erstellen eine Gussform die es Ihnen ermöglicht eine passgenaues Implantat vor Ort zu formen"
-    item_5: "SIE modellieren ein patienten-individuelles Implantat unter sterilen Bedingungen"
+    item_1: "SIE senden uns die individuellen CT Daten"
+    item_2: "WIR erstellen ein 3-dimensionales Modell zur Freigabe"
+    item_3: "SIE bestimmen das Design und WIR erstellen eine passgenaue Gussform"
+    item_4: "SIE modellieren ein patienten-individuelles Implantat"
   about:
-    teaser_1: 'Our Vision is to generate "improved solutions" by supplying revolutioninary medical services yet unknown in North America'
-    teaser_2: "Founded in Germany by a team of medical device experts, Pionira has reached into and discovered advanced services and technologies in both Eastern and Western Europe. These services, unavailable in North America, have been used successfully in hundreds of applications in Europe."
-    text_1: "Als zukunftsorientiertes Unternehmen investiert die PIONIRA Medical North America LLC in die Forschung und Entwicklung neuer Services und Produkte und setzt dabei auf innovative und intelligente Lösungen, welche die Versorgung und Lebensqualität der Patienten nachhaltig verbessern und die Abläufe im Klinikalltag optimieren."
-    text_2: "Das Management -Team der PIONIRA Medical North America LLC bringt mit Rick Williamsson (CEO), Inès Wanderer (CCO) und Ulrich Borchert (CMO) das Know-How von mehr als 15 Jahren Erfahrung ein, die in langjährigen Management-Positionen führender Unternehmen in der Medizintechnik und anderer erfolgreicher Unternehmen erworben wurden."
+    teaser_1: "Die PIONIRA Medical GmbH ist ein deutsches Unternehmen mit Sitz in Hirschberg an der Bergstraße, welches 2013 gegründet wurde."
+    teaser_2: ''
+    text_1: "Als zukunftsorientiertes Unternehmen investiert die PIONIRA Medical GmbH in die Forschung und Entwicklung neuer Services und Produkte und setzt dabei auf innovative und intelligente Lösungen, welche die Versorgung und Lebensqualität der Patienten nachhaltig verbessern und die Abläufe im Klinikalltag optimieren."
+    text_2: "Das Management -Team der PIONIRA Medical GmbH bringt mit Inès Wanderer (Geschäftsführung) und Ulrich Borchert (Leiter Marketing) das Know-How von jeweils mehr als 15 Jahren Erfahrung ein, die in langjährigen Management Positionen führender Unternehmen in der Medizintechnik erworben wurden."
   contact_sent:
     title: "Vielen Dank."
-    text: "Lorem ipsum dolor sit amet."
+    text: ""

@@ -20,6 +20,7 @@
 				<h1><%= link_to root_url do %><img src="/images/pionira-logo.png" alt="Placeholder" width="300" height=""><% end %></h1>
 				<nav id="nav">
 					<ul class="secondary">
+						<li><%= link_to t('header.start'), root_url %></li>
 						<li><%= link_to t('header.about_us'), about_url %></li>
             <li><%= link_to t('header.contact'), contact_url %></li>
             <li><%= switch_locale %></li>
@@ -41,11 +42,6 @@
 							<li class="tel">+49 6201 8462592</li>
 							<li><a class="email">info//pionira-medical/com</a></li>
 						</ul>
-						<ul class="social-a">
-							<li class="fb"><a rel="external" href="./">Facebook</a></li>
-							<li class="tw"><a rel="external" href="./">Twitter</a></li>
-							<li class="ms"><a rel="external" href="./">MySpace</a></li>
-						</ul>
 					</div>
 					<div class="vcard">
 						<h3 class="fn org">Pionira Medical North America LLC</h3>
@@ -55,7 +51,7 @@
 						</ul>
 					</div>
 				</nav>
-				<p>Copyright <span class="date">2014</span> &copy; <a href="./">PIONIRA-Medical GmbH</a> All Rights Reserved.</p>
+				<p>Copyright <span class="date">2014</span> &copy; <%= link_to 'PIONIRA-Medical GmbH', root_url %> All Rights Reserved.</p>
 			</footer>
 		</div>
 	</body>
