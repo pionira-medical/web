@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	#featured { overflow: hidden; position: relative; z-index: 1; width: 960px; height: 445px; margin: 0 auto 16px; background: #fff; }
 	#featured:after { content: ""; display: block; overflow: hidden; clear: both; height: 0; }
 		#featured article { position: relative; width: 960px; height: 445px; }
-			#featured article > div { position: absolute; right: 0; top: 0; z-index: 2; width: 270px; height: 399px; padding: 20px 20px 0; background: url(/images/shade-c.png); color: #fff; }
+			#featured article > div { position: absolute; right: 0; top: 0; z-index: 2; width: 275px; height: 425px; padding: 20px 20px 0; background: url(/images/shade-c.png); color: #fff; }
 				#featured article > div h2 { width: 110%; margin: 0 0 9px; color: #fff; line-height: 1.475; }
 				#featured article > div p { margin: 0; line-height: 1.65; }
 			#featured article figure { position: relative; z-index: 1; width: 960px; height: 445px; margin: 0; }
