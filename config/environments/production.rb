@@ -80,4 +80,16 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.action_mailer.default_url_options = { :host => 'www.pionira-medical.com' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              Rails.application.secrets.mail_server.address,
+    port:                 Rails.application.secrets.mail_server.port,
+    domain:               Rails.application.secrets.mail_server.domain,
+    user_name:            Rails.application.secrets.mail_server.user_name,
+    password:             Rails.application.secrets.mail_server.password,
+    authentication:       Rails.application.secrets.mail_server.authentication,
+    enable_starttls_auto: Rails.application.secrets.mail_server.enable_starttls_auto
+  }
 end
