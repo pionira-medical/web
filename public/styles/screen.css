@@ -56,7 +56,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 			#nav em { position: absolute; left: -3000em; top: -3000em; }
 		#search { position: absolute; right: 50%; top: 89px; margin: 0 -480px 0 0; }
 			#search p { position: relative; float: left; margin: 0; line-height: 32px; }
-			#search p:first-child { padding: 0 0px 0 25px; background: url(/images/sprite-a.png) 0 -365px no-repeat; color: #00abd2; font-size: 1.5em; font-weight: 700; font-family: 'Oswald', sans-serif; text-transform: uppercase; }
+			#search p:first-child { color: #00abd2; font-size: 1.5em; font-weight: 700; font-family: 'Oswald', sans-serif; text-transform: uppercase; }
 			#search p span { color: #f2591c; }
 			#search label { position: absolute; left: -3000em; top: -3000em; }
 			#search input { position: relative; z-index: 1; width: 234px; height: 30px; padding: 0 27px 0 5px; border: 1px solid #e7e7e7; line-height: 30px; }
@@ -129,8 +129,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 			#footer nav p { margin: 0 0 3px; color: #5a5a5a; font-size: 1.2em; }
 			#footer nav > .vcard { width: 280px; }
 				#footer nav > .vcard ul { overflow: hidden; width: 110%; margin: 0 0 15px; padding: 0; color: #757575; }
-					#footer nav > .vcard ul li { display: block; float: left; padding: 0 20px 0 21px; background: url(/images/sprite-a.png) 0 -425px no-repeat; font-size: 1.2em; }
-					#footer nav > .vcard ul li { padding-left: 0; background: none; }
+					#footer nav > .vcard ul li { display: block; padding: 0 20px 0 21px; font-size: 1.2em; }
+					#footer nav > .vcard ul li.tel { background: url(/images/sprite-a.png) 0px -982px no-repeat }
+					#footer nav > .vcard ul li.mail { background: url(/images/sprite-a.png) 0px -1013px no-repeat; }
 					#footer nav > .vcard ul li a { color: #757575; }
 		#footer > p { color: #9b9b9b; font-size: 1.1em; text-align: center; }
 			#footer > p a { color: #9b9b9b; }

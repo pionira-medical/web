@@ -28,7 +28,7 @@ de:
     english: "Englisch"
   featured:
     headline: "Patienten-individuelle Implantate – vor Ort geformt"
-    teaser: "Der Service der Pionira Medical GmbH ermöglicht es Ihnen erstmals Patienten-individuelle Kranioplastie-Implantate selber unter sterilen Bedingungen im OP zu formen."
+    teaser: "Der Service der Pionira Medical GmbH ermöglicht es Ihnen erstmals patienten-individuelle Kranioplastie-Implantate selber unter sterilen Bedingungen im OP zu formen."
     sub_headline: "Unser Service"
     list_item_1: "Erstellung eines interaktiven 3-D Modells zur Überprüfung ihres Implantat Designs"
     list_item_2: "Anfertigung einer passgenauen Form zur Herstellung ihres Implantats"
@@ -41,10 +41,10 @@ de:
     benefits_item_1: "Hervorragendes Preis-Leistungsverhältnis"
     benefits_item_2: "Ermöglicht hohe Passgenauigkeit"
     benefits_item_3: "Reproduzierbarkeit bei Revisionen ohne weitere Kosten"
-    benefits_item_4: "Wahl des Implantat Materials nach Wunsch des klinischen Anwenders"
+    benefits_item_4: "Freie Wahl des Implantat Materials nach Wunsch des klinischen Anwenders"
     tasks: "Ihre Mitwirkung"
     tasks_item_1: "Übermittlung ihrer patienten-spezifischen CT Daten"
-    tasks_item_2: "Sie entscheiden über das Design des Implantats"
+    tasks_item_2: "Sie entscheiden über das Design Ihres Implantats"
     tasks_item_3: "Sie formen das Implantat selber vor Ort unter sterilen Bedingungen im OP"
   workflow:
     item_1: "SIE senden uns die individuellen CT Daten"
