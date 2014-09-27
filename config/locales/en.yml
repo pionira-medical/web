@@ -28,7 +28,7 @@ en:
     english: "English"
   featured:
     headline: "Patient-specific implants - shaped on site"
-    teaser: "PIONIRA Medical North America LLC provides a service that allows clinical users to shape customized cranial implants, based on the renowned and proven CAD technology."
+    teaser: "PIONIRA North America LLC provides a service that allows clinical users to shape customized cranial implants, based on the renowned and proven CAD technology."
     sub_headline: "Our Service"
     list_item_1: "Creation of a 3-D model for approval"
     list_item_2: "Providing of a high precision mold"
@@ -36,7 +36,7 @@ en:
     list_item_4: "Workshops on site"
     list_item_5: "Personal support by our professional staff"
   content:
-    diy_teaser: "The service of PIONIRA MEDICAL allows you to shape custom made cranial implants on site. Based on the well known and proven CAD technology the implant will be shaped by the clinical user in the operating room under sterile conditions."
+    diy_teaser: "The service of PIONIRA North America LLC allows you to shape custom made cranial implants on site. Based on the well known and proven CAD technology the implant will be shaped by the clinical user in the operating room under sterile conditions."
     benefits: "Your benefits"
     benefits_item_1: "Excellent cost-benefit ratio"
     benefits_item_2: "High fitting accuracy"
@@ -54,8 +54,14 @@ en:
   about:
     teaser_1: 'Our Vision is to generate "improved solutions" by supplying revolutionary medical services not yet known in North America.'
     teaser_2: "Founded in Germany by a team of medical device experts, Pionira has explored and developed advanced services and technologies in both Eastern and Western Europe. These services, not yet available in North America, have been used successfully in hundreds of applications in Europe."
-    text_1: "Following a forward-looking philosophy, PIONIRA Medical North America LLC invests in the research and development of new services and products, focussing on innovative and intelligent solutions to sustainably improve the quality of life of the patients and optimize work processes in the clinical setting."
-    text_2: "PIONIRA Medical North America LLC benefits from the extensive expertise of Rick Williamsson (CEO), Inès Wanderer (CCO) and Ulrich Borchert (CMO), the executive team with over 15 years of experience in management positions in major medico-technical companies and other successful enterprises."
+    text_1: "Following a forward-looking philosophy, PIONIRA North America LLC invests in the research and development of new services and products, focussing on innovative and intelligent solutions to sustainably improve the quality of life of the patients and optimize work processes in the clinical setting."
+    text_2: "PIONIRA North America LLC benefits from the extensive expertise of Rick Williamsson (CEO), Inès Wanderer (CCO) and Ulrich Borchert (CMO), the executive team with over 15 years of experience in management positions in major medico-technical companies and other successful enterprises."
+  contact:
+    company: PIONIRA North America LLC
+    street: 6628 Bryant Irvin Road
+    city: Ft Worth, Texas 76132, 4227
+    country: USA
+    phone: +49 6201 8462592
   contact_sent:
     title: "Thank You."
     text: "Lorem ipsum dolor sit amet."

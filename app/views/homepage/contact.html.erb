@@ -7,13 +7,13 @@
 </nav>
 <div class="map-a">
   <header class="vcard">
-    <p class="adr"><span class="street-address">PIONIRA Medical GmbH</span>,<br /><span class="street-address">Breitgasse 5a</span>,<br /><span class="locality">69493 Hirschberg</span>, <span class="country-name">Germany</span></p>
+    <p class="adr"><span class="street-address"><%= t('contact.company') %></span>,<br /><span class="street-address"><%= t('contact.street') %></span>,<br /><span class="locality"><%= t('contact.city') %></span>, <span class="country-name"><%= t('contact.country') %></span></p>
     <ul>
-      <li class="tel">+49 6201 8462592</li>
+      <li class="tel"><%= t('contact.phone') %></li>
       <li><a class="email">info//pionira-medical/com</a></li>
     </ul>
   </header>
-  <div class="map-g"><figure><img src="images/map-a.png" alt="Placeholder" width="660" height="469"></figure></div>
+  <div class="map-g"><figure><img src="images/map-<%= params[:locale] %>.png" alt="Placeholder" width="660" height="469"></figure></div>
 </div>
 <aside>
   <%= form_tag(params, {class: 'contactform', id: 'contact'}) do %>
