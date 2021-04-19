@@ -23,6 +23,7 @@ de:
   header:
     start: "Startseite"
     about_us: "Über uns"
+    corona_schnelltests: "Corona Schnelltests"
     contact: "Kontakt"
     german: "Deutsch"
     english: "Englisch"
@@ -58,8 +59,8 @@ de:
     text_2: "Das Management -Team der PIONIRA Medical GmbH bringt mit Inès Wanderer (Geschäftsführung) und Ulrich Borchert (Leiter Marketing) das Know-How von jeweils mehr als 15 Jahren Erfahrung ein, die in langjährigen Management Positionen führender Unternehmen in der Medizintechnik erworben wurden."
   contact:
     company: PIONIRA Medical GmbH
-    street: Breitgasse 5a
-    city: 69463 Hirschberg
+    street: Lützelsachsener Str. 14/2
+    city: 69469 Weinheim
     country: Deutschland
     phone: +49 6201 8462592
   contact_sent:
