@@ -1,55 +1,64 @@
-<article id="content" class="cols-b">
+<section id="content" class="cols-a">
 <nav id="breadcrumbs">
-  <ol>
-    <li><%= link_to t('header.start'), root_url %></li>
-    <li><%= t('header.contact') %></li>
-  </ol>
+	<ol>
+		<li><%= link_to t('header.start'), root_url %></li>
+		<li><%= t('header.contact') %></li>
+	</ol>
 </nav>
-<div class="map-a">
-  <header class="vcard">
-    <p class="adr"><span class="street-address"><%= t('contact.company') %></span>,<br /><span class="street-address"><%= t('contact.street') %></span>,<br /><span class="locality"><%= t('contact.city') %></span>, <span class="country-name"><%= t('contact.country') %></span></p>
-    <ul>
-      <li class="tel"><%= t('contact.phone') %></li>
-      <li><a class="email">info//pionira-medical/com</a></li>
-    </ul>
-  </header>
-  <div class="map-g"><figure><img src="images/map-<%= params[:locale] %>.png" alt="Placeholder" width="660" height="469"></figure></div>
-</div>
-<aside>
-  <%= form_tag(params, {class: 'contactform', id: 'contact'}) do %>
-    <input type="hidden"  name="event" value="start" />
-    <fieldset>
-      <p>
-        <label for="ca">Name</label>
-        <input type="text" id="ca" name="form[name]" required>
-      </p>
-      <p>
-        <label for="cb">E-Mail</label>
-        <input type="email" id="cb" name="form[email]" required>
-      </p>
-      <p class="select-b">
-        <label for="cc">Subject</label>
-        <input name="form[subject]" type="text" id="cd" required>
-      </p>
-      <p class="select-b">
-        <label for="cc">Phone</label>
-        <input name="form[phone]" type="text" id="cf" required>
-      </p>
-      <p>
-        <label for="cd">Message</label>
-        <textarea id="cc" name="form[message]" required></textarea>
-      </p>
-      <p><button type="submit">Submit</button></p>
-    </fieldset>
-  <% end %>
-  <form action="/contact" method="post" class="" name="homefrm1" id="">
+<article>
 
-  </form>
-  <div id="alert">
-      <div class="message"></div>
-  </div>
-</aside>
+	<p>
+    Angaben gemäß §5 TMG<br /><br />
+    PIONIRA Medical GmbH<br />
+    Lützelsachsener Str. 14/2<br />
+    69469 Weinheim<br /><br />
+    Vertreten durch:<br />
+    Inès Wanderer – Geschäftsführung<br /><br />
+    Registergericht Mannheim<br />
+    HRB 718374<br /><br />
+    Telefon: 06201 - 846 2592<br />
+    Telefax: 03222 - 689 6759<br />
+    E-Mail: info@pionira-medical.com<br /><br />
+    Umsatzsteuer ID: DE 292 46 1122<br /><br />
+  </p>
+
+    <p>Google Analytics:<br />
+    Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google
+    Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die
+    eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten
+    Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in
+    den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IPAnonymisierung auf dieser
+    Webseite, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen
+    Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum
+    zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den
+    USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese
+    Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die
+    Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der
+    Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im
+    Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen
+    Daten von Google zusammengeführt. Sie können die Speicherung der Cookies durch eine
+    entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass
+    Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden
+    nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf
+    Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung
+    dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link
+    (http://tools.google.com/dlpage/gaoptout?hl=de) verfügbare Browser-Plugin herunterladen und
+    installieren. Nähere Informationen hierzu finden Sie unter
+    http://tools.google.com/dlpage/gaoptout?hl=de bzw. unter
+    http://www.google.com/intl/de/analytics/privacyoverview.html (allgemeine Informationen zu Google
+    Analytics und Datenschutz).
+    </p>
+    <p>
+    Adressdaten:<br />
+    Sollten Sie uns über das angezeigte Kontaktformular anschreiben werden die von Ihnen übermittelten
+    personenbezogenen Daten gespeichert. Wenn der Zweck der Nutzung für diese Daten entfällt, werden
+    sie gelöscht.</p>
+<p>
+    Haftungshinweise:<br />
+    Die Pionira Medical GmbH hat alle in Ihrem Bereich bereitgestellten Informationen nach bestem
+    Wissen und Gewissen erarbeitet und geprüft. Es wird jedoch keine Gewähr für die Aktualität,
+    Korrektheit, Vollständigkeit, Verfügbarkeit oder Qualität der bereitgestellten Informationen
+    übernommen.
+  </p>
 </article>
-<script type="text/javascript">
-	head.js('http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js','javascript/scripts.js','javascript/mobile.js')
-</script>>
+</section>
